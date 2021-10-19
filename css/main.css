@@ -985,7 +985,7 @@ pre .javascript .function {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Mrs Saint Delafield', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   margin: 0;
@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ebff0d;
+  background: #934d77;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1411,7 +1411,7 @@ pre .javascript .function {
   width: 100%;
 }
 .with-love {
-  color: #ff0000;
+  color: #ffffff;
   display: inline-block;
   margin: 0 5px;
 }
@@ -1473,6 +1473,68 @@ pre .javascript .function {
   }
   50%, 70% {
     transform: scale(1.1);
+  }
+}
+@media (max-width: 567px) {
+  .content-wrap {
+    padding: initial !important;
+  }
+  .posts-expand .post-meta {
+    margin: 3px 0 10px 0 !important;
+  }
+  .post-block {
+    margin-top: initial !important;
+    padding: 8px 18px 8px !important;
+  }
+  .posts-collapse {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .post-body h1,
+  .post-body h2,
+  .post-body h3,
+  .post-body h4,
+  .post-body h5,
+  .post-body h6 {
+    margin: 10px 0 8px;
+  }
+  .post-body .note h1,
+  .post-body .tabs .tab-content .tab-pane h1,
+  .post-body .note h2,
+  .post-body .tabs .tab-content .tab-pane h2,
+  .post-body .note h3,
+  .post-body .tabs .tab-content .tab-pane h3,
+  .post-body .note h4,
+  .post-body .tabs .tab-content .tab-pane h4,
+  .post-body .note h5,
+  .post-body .tabs .tab-content .tab-pane h5,
+  .post-body .note h6,
+  .post-body .tabs .tab-content .tab-pane h6 {
+    margin: 0 5px;
+  }
+  .post-body > p {
+    margin: 0 0 10px 0;
+  }
+  .post-body .note > p,
+  .post-body .tabs .tab-content .tab-pane > p {
+    padding: 0 5px;
+  }
+  .post-body img,
+  .post-body video {
+    margin-bottom: 10px !important;
+  }
+  .post-body .note {
+    margin-bottom: 10px !important;
+    padding: 10px !important;
+  }
+  .post-body .tabs .tab-content .tab-pane {
+    padding: 10px 10px 0 10px !important;
+  }
+  .post-eof {
+    margin: 40px auto 20px !important;
+  }
+  .pagination {
+    margin-top: 40px;
   }
 }
 .back-to-top {
@@ -1688,7 +1750,7 @@ pre .javascript .function {
 }
 @media (max-width: 991px) {
   .post-body {
-    text-align: justify;
+    text-align: left;
   }
 }
 .post-body h1,
